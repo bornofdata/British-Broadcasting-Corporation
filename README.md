@@ -6,14 +6,14 @@ This is a document classification project to help to sort
 
 
 
-### BBC Datasets
+## BBC Datasets
 Two news article datasets, originating from [BBC News](http://mlg.ucd.ie/datasets/bbc.html), provided for use as benchmarks for machine learning research.
 These datasets are made available for non-commercial and research purposes only. If you make use of these datasets please consider citing the publication:
 
 D. Greene and P. Cunningham. "Practical Solutions to the Problem of Diagonal Dominance in Kernel Document Clustering", Proc. ICML 2006. [PDF](http://mlg.ucd.ie/files/publications/greene06icml.pdf) [BibTeX](http://mlg.ucd.ie/files/bib/greene06icml.bib).
 
 
-#### Dataset: BBC
+### Dataset: BBC
 All rights, including copyright, in the content of the original articles are owned by the BBC.
 
 - Consists of 2225 documents from the BBC news website corresponding to stories in five topical areas from 2004-2005.
@@ -25,17 +25,17 @@ All rights, including copyright, in the content of the original articles are own
 > [Download raw text files](http://mlg.ucd.ie/files/datasets/bbc-fulltext.zip)
 
 
-Dataset: BBCSport
+### Dataset: BBCSport
 All rights, including copyright, in the content of the original articles are owned by the BBC.
 
-Consists of 737 documents from the BBC Sport website corresponding to sports news articles in five topical areas from 2004-2005.
-Class Labels: 5 (athletics, cricket, football, rugby, tennis)
->> Download pre-processed dataset
+- Consists of 737 documents from the BBC Sport website corresponding to sports news articles in five topical areas from 2004-2005.
+- Class Labels: 5 (athletics, cricket, football, rugby, tennis)
+> [Download pre-processed dataset]('http://mlg.ucd.ie/files/datasets/bbcsport.zip')
 
-> Download raw text files
+> [Download raw text files]('http://mlg.ucd.ie/files/datasets/bbcsport-fulltext.zip')
 
 
-File formats
+### File formats
 The datasets have been pre-processed as follows: stemming (Porter algorithm), stop-word removal ([stop word list](http://mlg.ucd.ie/files/datasets/stopwords.txt)) and low term frequency filtering (count < 3) have already been applied to the data. The files contained in the archives given above have the following formats:
 
 
@@ -48,7 +48,7 @@ The datasets have been pre-processed as follows: stemming (Porter algorithm), st
 
 ## Dataset
 
-Questions:
+### Questions:
 1.	For each of the five categories: what are the most common topics among articles?
 2.	Across all categories: how many articles talk about each of the G20 countries?
 a.	Note that we are interested in topics about the country, so a mention of the UK might be an article on British business even if it doesn’t mention the words “United Kingdom”.
