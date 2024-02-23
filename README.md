@@ -53,8 +53,6 @@ The datasets have been pre-processed as follows: stemming (Porter algorithm), st
 - *.urls: Links to original articles, where appropriate. 
 
 
-## Dataset
-
 ### Questions:
 1.	For each of the five categories: what are the most common topics among articles?
 2.	Across all categories: how many articles talk about each of the G20 countries?
