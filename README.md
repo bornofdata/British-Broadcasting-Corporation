@@ -2,8 +2,15 @@
 
 ## Overview
 
-This is a document classification project to help to sort 
+The objective of this project is to employ Natural Language Processing (NLP) techniques to analyze a collection of articles from the BBC across five distinct categories. The project aims to uncover insights by addressing two primary questions:
 
+1. Identifying Common Topics by Category:
+For each of the five specified categories, the project seeks to determine the most prevalent topics among the articles. Utilizing NLP algorithms, the analysis will focus on extracting key themes, subjects, and trends within each category. This exploration aims to provide a comprehensive understanding of the predominant discussions within the different sections of the BBC.
+
+2. Exploring G20 Country Mentions Across Categories:
+The second aspect of the project involves examining how many articles across all categories specifically mention each of the G20 countries. By leveraging NLP algorithms, the analysis will identify and quantify the frequency of references to individual G20 nations within the entire dataset. This broader perspective aims to unveil patterns in the global coverage provided by the BBC, shedding light on the prominence of G20 countries in various news topics.
+
+Overall, this NLP-driven project seeks to offer valuable insights into the content of BBC articles, providing a nuanced understanding of prevalent topics within specific categories and the coverage of G20 countries across diverse news segments. The application of NLP techniques enables a data-driven approach to uncover patterns, trends, and relationships within the extensive BBC article dataset.
 
 
 ## BBC Datasets
@@ -51,12 +58,6 @@ The datasets have been pre-processed as follows: stemming (Porter algorithm), st
 ### Questions:
 1.	For each of the five categories: what are the most common topics among articles?
 2.	Across all categories: how many articles talk about each of the G20 countries?
-a.	Note that we are interested in topics about the country, so a mention of the UK might be an article on British business even if it doesn’t mention the words “United Kingdom”.
-
-3.	Describe the methodologies you used to solve questions 1 and 2.
-4.	What tools did you use for this analysis?
-5.	How much time did you devote to this exercise?
-6.	If you had more time how would you strengthen your answer for question 2?
 
 
 [Link to analysis on Kaggle](https://www.kaggle.com/code/fagbamigbekehinde/bbc-category)
