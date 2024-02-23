@@ -37,9 +37,9 @@ All rights, including copyright, in the content of the original articles are own
 
 - Consists of 737 documents from the BBC Sport website corresponding to sports news articles in five topical areas from 2004-2005.
 - Class Labels: 5 (athletics, cricket, football, rugby, tennis)
-> [Download pre-processed dataset]('http://mlg.ucd.ie/files/datasets/bbcsport.zip')
+> [Download pre-processed dataset](http://mlg.ucd.ie/files/datasets/bbcsport.zip)
 
-> [Download raw text files]('http://mlg.ucd.ie/files/datasets/bbcsport-fulltext.zip')
+> [Download raw text files](http://mlg.ucd.ie/files/datasets/bbcsport-fulltext.zip)
 
 
 ### File formats
